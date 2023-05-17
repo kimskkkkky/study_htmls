@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - signin</title>
+</head>
+<!-- sign in=index.html / forgot password=links.html / register=lists.html로 이동하게 만듬-->
+<body>
+    <h3> typical sign in / login form with additional additional register buttons. </h3>
+    <div>
+        <form action="../index.html">
+            <div>
+                <input type="password" name="password" value="1234" id="idchekpassword"> 
+                <label for="idchekpassword"> Password </lable>
+            </div>
+            <div>
+                <input type="email" name="emailAddress" value="otter@yojulab" id="idchekemail"> 
+                <label for="idchekemail"> Email address </lable>
+            </div>
+            <div>
+                <input type="checkbox" name="rememberme" value="on" id="idcheckremember" checked>
+                <label for="idcheckremember"> Remember me </lable>
+            </div>
+            <div>
+                <a href="../links.html"> Forgot password? </a>
+            </div>
+            <div>
+                <input type="submit" value="sign in">
+            </div>    
+        </form>
+     </div>   
+    <div>
+        <h3>Not a member?<a href="../lists.html"> Register </a></h3>
+    </div>
+</body>
+</html>
